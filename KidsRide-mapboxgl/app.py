@@ -44,7 +44,7 @@ def data():
     # db = client[KidsRidedb1]
     # collection = db[activityData2]
     # documents = activityData2.find()
-    documents = mongo.db.activityData2.find()
+    documents = mongo.db.activityData3.find()
     response = []
     for document in documents:
         #document['_id'] = str(document['_id'])
